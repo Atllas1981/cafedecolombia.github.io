@@ -1,0 +1,31 @@
+.mi-nav {
+    position: relative; /* Establece un contexto de posición relativa para el nav */
+}
+
+h1 {
+    position: absolute;
+    top: 0; /* Coloca el h1 en la parte superior */
+    left: 0; /* Coloca el h1 en la parte izquierda */
+    color: white; /* Establece el color del texto en blanco */
+    background-color: rgba(0, 0, 0, 0.2); /* Establece un fondo semitransparente */
+    padding: 10px; /* Agrega un poco de espacio alrededor del texto */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+    font-size: 40px; /* Establece el tamaño de fuente en 30px */
+}
+
+#miArticulo p{
+    text-align: justify; /*justifica el texto*/
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    height:100vh; /* Esto centra verticalmente el contenido en la pantalla */
+  }
+
+footer {
+    background-color: #333; /* Color de fondo para el footer */
+    color: white; /* Color del texto en el footer */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 10px; /* Agrega espacio interno alrededor del texto */
+  }
+
